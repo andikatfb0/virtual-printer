@@ -10,6 +10,7 @@ let confComment = false;
 let confLike = false;
 let confShare = false;
 let confJoin = false;
+let confGift = false;
 
 // START
 $(document).ready(() => {
@@ -177,7 +178,7 @@ function loadGame() {
         gameSelectedWord = splittedWord[1];
 
         // Set
-        $("#textGuess").html("<div style='font-size:70%;padding-bottom:5px;'>" + splittedWord[0] + "</div>" + censor(gameSelectedWord));
+        $("#textGuess").html("<div style='font-size:70%;padding-bottom:5px;'>KHUSUS YANG GIFT FOTONYA BAKAL MUNCUL DI LAYAR</div>" + censor(gameSelectedWord));
 
         // Timeout
         countDown()
@@ -214,6 +215,7 @@ function loadSetting() {
     confLike = $("#confLike").prop('checked');
     confShare = $("#confShare").prop('checked');
     confJoin = $("#confJoin").prop('checked');
+    confGift = $("#confGift").prop('checked');
 }
 
 /*
