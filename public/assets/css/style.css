@@ -27,6 +27,16 @@
 	width: 100%;
 	border-radius: 16px;
 }
+embed {
+	width: 100%!important;
+}
+img {
+	border-radius: 4px !important;
+	width: 100% !important;
+}
+.userimage {
+	color: #000;
+}
 .background {
 	position:fixed;
 	top:0;
