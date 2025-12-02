@@ -178,7 +178,7 @@ function loadGame() {
         gameSelectedWord = splittedWord[1];
 
         // Set
-        $("#textGuess").html("<div style='font-size:70%;padding-bottom:5px;'>TAP-TAP LAYAR, COMMENT, SHARE, GIFT SEMUA BAKAL KE PRINT</div>" + censor(gameSelectedWord));
+        $("#textGuess").html("<div style='font-size:70%;padding-bottom:5px;'>PENTING!!!</div>" + censor(gameSelectedWord));
 
         // Timeout
         countDown()
